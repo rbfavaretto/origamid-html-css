@@ -1,0 +1,57 @@
+p, h1, h2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-self: center;
+}
+
+.blocos {
+    padding: 25px;
+    background-color: #111;
+    border-radius: 4px;
+    width: 1500px;
+}
+
+h1 {
+    color: #111;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+span {
+    color: #febe01;
+}
+
+a {
+    display: block;
+    width: 127px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: #febe01;
+    padding: 10px;
+    color: #332200;
+    text-align: center;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tudo, .blocos-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p {
+    color: #fff;
+}
